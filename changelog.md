@@ -1,1 +1,1 @@
-Первый релиз
+Исправил вылеты по сообщению от [469zgk](https://4pda.to/forum/index.php?showuser=5752958)
