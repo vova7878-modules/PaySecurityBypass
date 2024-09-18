@@ -12,3 +12,8 @@
 - Android 8.0+ и любой из вариантов Zygisk для Magisk/APatch/KernelSU
 - Целевые приложение не должны находиться в DenyList
 - Никаких применённых модулей LSPosed на целевых приложениях
+
+### Внутреннее устройство
+- [ZygoteLoader](https://github.com/vova7878/ZygoteLoader) используется для запуска java кода из под zygisk
+- [AndroidVMTools](https://github.com/vova7878/AndroidVMTools) используется для хуков (по сути выполняет работу lsposed)
+- Модуль не скрывает root или кастомную прошивку, а подменяет результаты проверок приложения
